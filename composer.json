@@ -1,0 +1,34 @@
+{
+  "name": "onnerby/nestedcache",
+  "description": "Nested cache",
+  "keywords": [
+    "PHP",
+    "cache"
+  ],
+  "homepage": "https://github.com/onnerby/nestedcache",
+  "type": "library",
+  "license": "MIT",
+  "version": "0.9.0",
+  "authors": [
+    {
+      "name": "Daniel Önnerby"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Doe\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Doe\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8",
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox tests"
+  }
+}
