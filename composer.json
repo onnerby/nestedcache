@@ -1,6 +1,6 @@
 {
   "name": "onnerby/nestedcache",
-  "description": "Nested cache",
+  "description": "A nested cache that can be invalidated through relations and/or hierarchy",
   "keywords": [
     "PHP",
     "cache"
